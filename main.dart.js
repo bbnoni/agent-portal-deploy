@@ -44583,13 +44583,13 @@ s=1
 break}p.Y(new A.auK(p,J.a1h(o.a)))
 case 1:return A.x(q,r)}})
 return A.y($async$xk,r)},
-l6(){var s=0,r=A.z(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1
-var $async$l6=A.v(function(c2,c3){if(c2===1){o.push(c3)
+l6(){var s=0,r=A.z(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9
+var $async$l6=A.v(function(c0,c1){if(c0===1){o.push(c1)
 s=p}while(true)switch(s){case 0:if(m.z==null){m.c.O(t.q).f.b3(A.br(null,null,null,null,null,B.l,null,A.ay("\u26a0\ufe0f Please select a file before submitting.",null,null,null,null,null,null),null,B.t,null,null,null,null,null,null,null,null,null))
 s=1
 break}s=3
 return A.p(m.e.hx(0,"token"),$async$l6)
-case 3:l=c3
+case 3:l=c1
 if(l==null||J.bl(l)===0){m.c.O(t.q).f.b3(A.br(null,null,null,null,null,B.l,null,A.ay(u.V,null,null,null,null,null,null),null,B.t,null,null,null,null,null,null,null,null,null))
 s=1
 break}k=B.c.b5(m.Q.a.a)
@@ -44600,97 +44600,106 @@ b0=m.c
 b0.toString
 b1=t.z
 A.n2(!1,new A.auR(),b0,b1)
-b0=m.d
-b2=t.N
-b3=A.a4(["commission_period",k],b2,b1)
-s=8
-return A.p(b0.CY(0,"https://pdf-manager-eygj.onrender.com/check_commission_period",A.ff(A.a4(["Authorization","Bearer "+A.l(l)],b2,b1),null),b3,b1),$async$l6)
-case 8:j=c3
-b3=m.c
-b3.toString
-A.bN(b3,!1).dE(null)
-i=J.e(J.am(j.a,"exists"),!0)
+j=null
+p=8
+b0=t.N
+b2=A.a4(["commission_period",k],b0,b1)
+s=11
+return A.p(m.d.CY(0,"https://pdf-manager-eygj.onrender.com/check_commission_period",A.ff(A.a4(["Authorization","Bearer "+A.l(l)],b0,b1),null),b2,b1),$async$l6)
+case 11:j=c1
+n.push(10)
+s=9
+break
+case 8:n=[5]
+case 9:p=5
+b0=m.c
+b0.toString
+A.bN(b0,!1).dE(null)
+s=n.pop()
+break
+case 10:i=J.e(J.am(j.a,"exists"),!0)
 h="append"
-b3=m.c
-s=!i?9:11
+b0=m.c
+s=!i?12:14
 break
-case 9:b3.O(t.q).f.b3(A.br(null,null,null,null,null,B.l,null,A.ay("\u2705 No existing commission period found. Continuing...",null,null,null,null,null,null),null,B.t,null,null,null,null,null,null,null,null,null))
-s=12
+case 12:b0.O(t.q).f.b3(A.br(null,null,null,null,null,B.l,null,A.ay("\u2705 No existing commission period found. Continuing...",null,null,null,null,null,null),null,B.t,null,null,null,null,null,null,null,null,null))
+s=15
 return A.p(A.kg(B.FJ,null,b1),$async$l6)
-case 12:s=10
+case 15:s=13
 break
-case 11:b3.toString
-s=13
-return A.p(A.n2(!0,new A.auS(m),b3,b2),$async$l6)
-case 13:g=c3
+case 14:b0.toString
+s=16
+return A.p(A.n2(!0,new A.auS(m),b0,t.N),$async$l6)
+case 16:g=c1
 if(g==null||J.e(g,"cancel")){m.c.O(t.q).f.b3(A.br(null,null,null,null,null,B.l,null,A.ay("\u26a0\ufe0f Upload cancelled.",null,null,null,null,null,null),null,B.t,null,null,null,null,null,null,null,null,null))
 n=[1]
 s=6
 break}h=g
-case 10:b3=$.fZ().b
-b3===$&&A.a()
-f=b3
-b3=f.at
-b3===$&&A.a()
-e=new A.alh(b3.a,b3.b,"commissions",b3.c)
+case 13:b0=$.fZ().b
+b0===$&&A.a()
+f=b0
+b0=f.at
+b0===$&&A.a()
+e=new A.alh(b0.a,b0.b,"commissions",b0.c)
 d=""+Date.now()+"_"+m.z.b
 c=""
-p=15
-b3=A.l(d)
-b4=m.z.c
-b4.toString
-s=18
-return A.p(e.x0("original/"+b3,b4),$async$l6)
-case 18:b=e.LT("original/"+A.l(d))
+p=18
+b0=A.l(d)
+b2=m.z.c
+b2.toString
+s=21
+return A.p(e.x0("original/"+b0,b2),$async$l6)
+case 21:b=e.LT("original/"+A.l(d))
 A.n1().$1("\u2705 Supabase upload successful: "+A.l(b))
 p=5
-s=17
+s=20
 break
-case 15:p=14
-b9=o.pop()
-a=A.a5(b9)
+case 18:p=17
+b7=o.pop()
+a=A.a5(b7)
 A.n1().$1("\u274c Supabase upload failed: "+A.l(a))
-s=17
+s=20
 break
-case 14:s=5
+case 17:s=5
 break
-case 17:p=20
-b3=A.l(d)
-b4=m.z.c
-b4.toString
-s=23
-return A.p(e.x0("original/"+b3,b4),$async$l6)
-case 23:a0=e.LT("original/"+A.l(d))
+case 20:p=23
+b0=A.l(d)
+b2=m.z.c
+b2.toString
+s=26
+return A.p(e.x0("original/"+b0,b2),$async$l6)
+case 26:a0=e.LT("original/"+A.l(d))
 A.n1().$1("\u2705 Supabase upload successful: "+A.l(a0))
 p=5
-s=22
+s=25
 break
-case 20:p=19
-c0=o.pop()
-a1=A.a5(c0)
+case 23:p=22
+b8=o.pop()
+a1=A.a5(b8)
 A.n1().$1("\u274c Supabase upload failed: "+A.l(a1))
-s=22
+s=25
 break
-case 19:s=5
+case 22:s=5
 break
-case 22:a2=null
-b3=m.z
-b4=b3.c
-b4.toString
-a2=A.aVQ(b4,b3.b)
-b3=A.a4(["file",a2,"commission_period",k,"mode",h,"original_file_url",c],b2,b1)
-b6=new A.AW(A.b([],t.Iq),A.b([],t.cS))
-b6.ady(b3,B.hj)
-a3=b6
+case 25:a2=null
+b0=m.z
+b2=b0.c
+b2.toString
+a2=A.aVQ(b2,b0.b)
+b0=t.N
+b2=A.a4(["file",a2,"commission_period",k,"mode",h,"original_file_url",c],b0,b1)
+b4=new A.AW(A.b([],t.Iq),A.b([],t.cS))
+b4.ady(b2,B.hj)
+a3=b4
 m.Y(new A.auT(m))
-s=24
-return A.p(b0.KD("https://pdf-manager-eygj.onrender.com/upload_commissions",a3,new A.auU(m),A.ff(A.a4(["Authorization","Bearer "+A.l(l),"Content-Type","multipart/form-data"],b2,b1),null),b1),$async$l6)
-case 24:a4=c3
+s=27
+return A.p(m.d.KD("https://pdf-manager-eygj.onrender.com/upload_commissions",a3,new A.auU(m),A.ff(A.a4(["Authorization","Bearer "+A.l(l),"Content-Type","multipart/form-data"],b0,b1),null),b1),$async$l6)
+case 27:a4=c1
 if(a4.c===200){a5=a4.a
-b7=J.am(a5,"records_uploaded")
-a6=b7==null?0:b7
-b8=J.am(a5,"total_records")
-a7=b8==null?0:b8
+b5=J.am(a5,"records_uploaded")
+a6=b5==null?0:b5
+b6=J.am(a5,"total_records")
+a7=b6==null?0:b6
 a8=J.am(a5,"failed_download_url")
 A.n1().$1("\u26a0\ufe0f failedUrl: "+A.l(a8))
 b0=A.l(a6)
@@ -44703,8 +44712,8 @@ n.push(7)
 s=6
 break
 case 5:p=4
-c1=o.pop()
-b0=A.a5(c1)
+b9=o.pop()
+b0=A.a5(b9)
 if(b0 instanceof A.d8){a9=b0
 b0=m.c
 b0.toString
